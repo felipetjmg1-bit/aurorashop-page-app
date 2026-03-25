@@ -1,50 +1,70 @@
-# 🛒 Aurora Shop: Landing Page Premium
+# 🛍️ AuroraShop - Plataforma de E-commerce
 
-A **Aurora Shop** é uma landing page moderna e responsiva desenvolvida para e-commerce de produtos premium. O projeto foca em uma experiência de usuário fluida, design minimalista e alta performance, utilizando tecnologias web padrão sem a necessidade de frameworks pesados.
+**Aplicativo de Compras Inteligente do Ecossistema Aurora**
 
-## ✨ Destaques do Projeto
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Active Development](https://img.shields.io/badge/Status-Active%20Development-brightgreen.svg)]()
 
-- **Design Responsivo**: Totalmente adaptável para Mobile, Tablet e Desktop.
-- **Estética Moderna**: Utiliza gradientes suaves, tipografia limpa e sombras suaves para um visual "high-end".
-- **Performance**: Código otimizado com HTML5 e CSS3 puro, garantindo carregamento instantâneo.
-- **SEO Friendly**: Estrutura semântica preparada para motores de busca.
-- **PWA Ready**: Estrutura básica que pode ser facilmente convertida em um Progressive Web App.
+## 📋 Visão Geral
 
-## 🛠️ Tecnologias Utilizadas
+**AuroraShop** é uma plataforma de e-commerce moderna e inteligente, integrada ao ecossistema Aurora. O aplicativo oferece uma experiência de compra seamless com recursos avançados de IA, pagamento seguro e gestão de pedidos.
 
-- **HTML5**: Estrutura semântica.
-- **CSS3**: Estilização avançada com Flexbox, Grid e Variáveis CSS.
-- **JavaScript**: Interatividade leve e animações.
+## 🎯 Características
 
-## 📂 Estrutura de Pastas
+- **Interface Moderna:** Design responsivo e intuitivo
+- **Catálogo Inteligente:** Recomendações personalizadas com IA
+- **Pagamento Seguro:** Integração com múltiplos gateways
+- **Rastreamento de Pedidos:** Acompanhamento em tempo real
+- **Programa de Fidelidade:** Rewards e benefícios exclusivos
+- **Suporte ao Cliente:** Chat e atendimento 24/7
 
-```
-aurorashop-page-app/
-├── index.html    # Arquivo principal contendo estrutura, estilos e lógica
-├── LICENSE       # Licença do projeto
-└── README.md     # Documentação do projeto
-```
+## 📱 Disponibilidade
 
-## 🚀 Como Executar
+- **Web:** https://aurorashop.impulsodigital.com.br
+- **Android:** Em breve na Play Store
+- **iOS:** Em breve na App Store
 
-Não é necessária nenhuma instalação complexa. Basta abrir o arquivo `index.html` em qualquer navegador moderno.
+## 🚀 Início Rápido
 
 ```bash
-# Simplesmente abra o arquivo no navegador:
-open index.html
+# Clone o repositório
+git clone https://github.com/felipetjmg1-bit/aurorashop-page-app.git
+cd aurorashop-page-app
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
 ```
 
-## 📈 Roadmap de Melhorias
+## 📊 Roadmap
 
-- [ ] Integração com API de Pagamento (Stripe/PayPal).
-- [ ] Backend em Node.js para gerenciamento de pedidos.
-- [ ] Dashboard administrativo para cadastro de produtos.
-- [ ] Suporte a múltiplos idiomas (i18n).
+| Fase | Objetivo | Status |
+|------|----------|--------|
+| Phase 1 | Lançamento da web | 🔄 Em Progresso |
+| Phase 2 | Aplicativo mobile | 📋 Planejado |
+| Phase 3 | Integração com Aurora Chain | 📋 Planejado |
+| Phase 4 | Expansão internacional | 📋 Planejado |
+
+## 🔐 Segurança
+
+- Criptografia de ponta a ponta
+- Conformidade com PCI DSS
+- Proteção contra fraudes
+- Dados armazenados com segurança
+
+## 📞 Suporte
+
+- Email: support@aurorashop.com.br
+- Website: https://www.impulsodigital.com.br
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença **MIT**.
+MIT License
 
 ---
 
-**Aurora Shop - Elevando o padrão das compras online.**
+**Desenvolvido com ❤️ para melhorar sua experiência de compra**
+
+*AuroraShop - Compras Inteligentes no Ecossistema Aurora*
