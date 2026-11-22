@@ -1,4 +1,4 @@
-![Status: Experimental](https://img.shields.io/badge/Status-Vitrine%20em%20desenvolvimento-blue) | [![Licença Apache-2.0](https://img.shields.io/github/license/felipetjmg1-bit/aurorashop-page-app)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Vitrine em desenvolvimento](https://img.shields.io/badge/Status-Vitrine%20em%20desenvolvimento-blue) | [![Licença Apache-2.0](https://img.shields.io/github/license/felipetjmg1-bit/aurorashop-page-app)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Aurora Shop" width="100%"></p>
 
@@ -47,7 +47,7 @@ Na interface de index.html, clicar em “Ver Produtos” chama scrollToProducts(
 
 ## Estado e limitações
 
-**Maturidade indicada:** Experimental.
+**Estado de entrega:** vitrine estática de catálogo.
 
 - Não reproduzir como capacidades implementadas as afirmações de pagamentos soberanos, IA, blockchain, independência tecnológica ou proteção de dados do README/descrição: não são comprovadas pelos arquivos de aplicação examinados.
 - Produtos e preços estão escritos diretamente no HTML; os botões de carrinho mostram apenas alertas, e não há evidência de carrinho real, checkout, persistência ou processamento de pagamentos.
