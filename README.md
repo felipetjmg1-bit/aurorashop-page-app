@@ -1,4 +1,4 @@
-![Status: Experimental](https://img.shields.io/badge/Status-Experimental-blue) | [![Licença Apache-2.0](https://img.shields.io/github/license/felipetjmg1-bit/aurorashop-page-app)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Experimental](https://img.shields.io/badge/Status-Vitrine%20em%20desenvolvimento-blue) | [![Licença Apache-2.0](https://img.shields.io/github/license/felipetjmg1-bit/aurorashop-page-app)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Aurora Shop" width="100%"></p>
 
