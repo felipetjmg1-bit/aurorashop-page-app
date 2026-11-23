@@ -75,3 +75,9 @@ O desenvolvimento aberto exige tempo para manutenção, documentação, testes, 
 ## Fluxo passo a passo
 
 Consulte o [guia textual com as etapas do projeto](docs/PROCESSO-PASSO-A-PASSO.md). O infográfico acima resume visualmente o mesmo fluxo.
+
+
+## Evidências de interface
+
+- [Workflow Playwright para a vitrine estática](.github/workflows/interface-evidence.yml)
+- [Escopo e limitações das evidências](docs/INTERFACE-EVIDENCE.md)
