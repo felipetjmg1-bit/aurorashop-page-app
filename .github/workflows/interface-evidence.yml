@@ -1,0 +1,64 @@
+name: Aurora Shop static interface evidence
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: aurorashop-interface-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  browser:
+    name: Serve and capture static storefront
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Start static site
+        run: |
+          python3 -m http.server 8080 --directory . > /tmp/aurorashop-http.log 2>&1 &
+          echo $! > /tmp/aurorashop-http.pid
+          python3 - <<'PY'
+          import time
+          import urllib.request
+          for _ in range(30):
+              try:
+                  with urllib.request.urlopen("http://127.0.0.1:8080/", timeout=2) as response:
+                      assert response.status == 200
+                      print("Static site responds with HTTP 200.")
+                      break
+              except Exception:
+                  time.sleep(1)
+          else:
+              raise SystemExit("Static site did not become ready.")
+          PY
+      - name: Verify behavior and capture desktop/mobile
+        run: node scripts/capture-interface.mjs
+      - name: Stop static site
+        if: always()
+        run: |
+          if [ -f /tmp/aurorashop-http.pid ]; then kill "$(cat /tmp/aurorashop-http.pid)" || true; fi
+      - name: Upload browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aurorashop-real-static-interface
+          path: |
+            artifacts/interface/
+            /tmp/aurorashop-http.log
+          if-no-files-found: warn
+          retention-days: 30
